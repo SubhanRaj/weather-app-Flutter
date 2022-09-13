@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
                   scaffoldBackgroundColor: Colors.black,
                   elevatedButtonTheme: ElevatedButtonThemeData(
                       style: ElevatedButton.styleFrom(
-                    primary: Colors.blue,
+                    backgroundColor: Colors.blue,
                     elevation: 0,
                   )),
                   bottomNavigationBarTheme: const BottomNavigationBarThemeData(
@@ -50,7 +50,7 @@ class MyApp extends StatelessWidget {
                 elevatedButtonTheme: ElevatedButtonThemeData(
                     style: ElevatedButton.styleFrom(
                   elevation: 0,
-                  primary: Colors.blue,
+                  backgroundColor: Colors.blue,
                 )),
                 bottomNavigationBarTheme: const BottomNavigationBarThemeData(
                     backgroundColor: Colors.transparent,
